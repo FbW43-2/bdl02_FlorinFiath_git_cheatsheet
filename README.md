@@ -43,6 +43,7 @@ This command creates an empty Git repository. From now on, we can make changes t
     `git add` tells Git that you want to include the latest changes in the next commit. However, changes are not actually recorded until you run `git commit`.
 2. `git commit -m "Meaningful message here"`
     A commit is the Git equivalent of a "save". Commits can be thought of as snapshots of our project at a given point in time.
+    You can also *quick-commit* by running `git commit -am "Message here"`
 3. `git push`
     This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
 
