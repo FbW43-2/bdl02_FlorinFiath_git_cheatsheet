@@ -1,11 +1,11 @@
 # Git commands cheat-sheet: the most useful git commands
+
 ## 1. Navigate to your git project folder
 
 Use `cd` to move between folders. For example:
 ```
 cd workspace
-
-cd bdl02_FlorinFiath_git_cheatsheet
+cd bdl02_florinfiath_git_cheatsheet
 ```
 ## 2. Check the status of the project
 
@@ -33,6 +33,7 @@ I can use these commands **anytime** to inspect my project.
     - Lines marked in **red** are lines that were removed.
     - Lines marked in **green** are lines that were added.
 ## 3. Initialize a git project 
+
 If any `git` command that we run gives the following output:
 > fatal: not a git repository (or any of the parent directories): .git
 it means that **we are not inside a git project**.
@@ -45,9 +46,12 @@ git init
 ``` 
 This command creates an empty Git repository. From now on, we can make changes to our files and permanently save those changes.
 ## 4. Save changes to files
+
 1. `git add .` (or `git add -A`)
+
     `git add` tells Git that you want to include the latest changes in the next commit. However, changes are not actually recorded until you run `git commit`.
 2. `git commit -m "Meaningful message here"`
+
     A commit is the Git equivalent of a "save". Commits can be thought of as snapshots of our project at a given point in time.
     You can also *quick-commit* by running `git commit -am "Message here"`
 3. `git push`
