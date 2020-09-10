@@ -8,6 +8,7 @@ cd bdl02_markopacak_git_cheatsheet
 ## 2. Check the status of the project
 I can use these commands **anytime** to inspect my project.
 - `git status`
+
     With `git status` I can see if some changes have happened and if some files are ready to be committed. 
     It gives me an overview of the project at that specific moment in time.
 - `git log`
@@ -26,9 +27,16 @@ git init
 This command creates an empty Git repository. From now on, we can make changes to our files and permanently save those changes.
 ## 4. Save changes
 1. `git add .` (or `git add -A`)
+    
+    `git add` 
+    
+    tells Git that you want to include the latest changes in the next commit. However, changes are not actually recorded until you run `git commit`.
 2. `git commit -m "Meaningful message here"`
+
+    A commit is the Git equivalent of a "save". 
 3. `git push`
-Collapse
+
+    This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
 
 
 
