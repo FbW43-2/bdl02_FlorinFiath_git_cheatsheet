@@ -13,7 +13,7 @@ cd bdl02_FlorinFiath_git_cheatsheet
     With `git status` I can see some changes have happened and if some files are ready to be committed .
     It gives me an overview of the project at the specific moment in time.
 - `git log`
-- `git commit`
+- `git diff`
 
 
 
