@@ -59,7 +59,19 @@ This command creates an empty Git repository. From now on, we can make changes t
 
     Test line , last added some small changes 15.09.2020....
 
-    Added a new brach 
+## 5. Creating Branches 
+
+ ### How to create new Branches from Terminal :
+ - $git branch
+ - git checkout -b experimental-branch
+ - git status
+ - git diff
+ - git add .
+ - git commit -m "comments"
+ - git push origin experimental-branch
+
+
+
 
 
 
