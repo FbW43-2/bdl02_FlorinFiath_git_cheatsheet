@@ -59,6 +59,8 @@ This command creates an empty Git repository. From now on, we can make changes t
 
     Test line , last added some small changes 15.09.2020....
 
+    Added a new brach 
+
 
 
 
