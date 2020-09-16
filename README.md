@@ -62,13 +62,13 @@ This command creates an empty Git repository. From now on, we can make changes t
 ## 5. Creating Branches 
 
  ### How to create new Branches from Terminal :
- - $git branch
- - git checkout -b experimental-branch
- - git status
- - git diff
- - git add .
- - git commit -m "comments"
- - git push origin experimental-branch
+ - `$git branch`
+ - `$git checkout -b experimental-branch`
+ - `$git status`
+ - `$git diff`
+ - `$git add .`
+ - `$git commit -m "comments"`
+ - `$git push origin experimental-branch`
 
 
 
