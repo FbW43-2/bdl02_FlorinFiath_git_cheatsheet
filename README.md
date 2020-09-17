@@ -72,7 +72,7 @@ This command creates an empty Git repository. From now on, we can make changes t
 
 ### How to merge Branches
 Assuming:
-- we are on a separate branch that I named `branch-name` Note: it can be checked by running git branch `-l`;
+- we are on a separate branch that I named `branch-name` Note: it can be checked by running `git branch -l`;
 
 - we have added and committed all our changes
 we are now ready to merge our changes back to the main branch (which is usually master). It's time to:
